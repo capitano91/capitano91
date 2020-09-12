@@ -1,0 +1,10 @@
+quesito uno: 
+Sviluppare una soluzione per generare e visualizzare un codice QR su una pagina di record dell'account contenente le seguenti informazioni:
+Nome utente; Sito web;Indirizzo email
+soluzione:
+// 
+1)vado su appExchange e scarico l'app gratuita Smart Barcode
+2) object manager e su Accounts e creo un bottone  dove inserisco nella formula il codice per il qr code che desidero scegliere piu 
+i field che mi interessa inserire (Nome utente; Sito web;Indirizzo email )
+<SmartBarcode:BarCode128 codeValue=“{!ObjectName.FieldName}” />
+3)vado sul layout di account e insierisco il bottone nella visualizzazione. //
